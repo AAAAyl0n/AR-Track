@@ -6,6 +6,8 @@ ARTrack是一个非机动车AR抬头显示（HUD）。它设计灵感来源于�
 
 ![使用效果](https://github.com/AHANAyl0n/AR-Track/blob/main/5.Docs/%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C.jpg)
 
+该设备通过低功耗蓝牙与手机通信，手机上获取的导航会通过蓝牙发送json格式的数据包到这个设备上，经设备处理，解码，排版后显示出来
+
 ## 文件目录
 
 ### 1.Hardware
