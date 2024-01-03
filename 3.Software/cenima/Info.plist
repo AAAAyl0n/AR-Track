@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1IjoiYW5pdXJtIiwiYSI6ImNscGd5aGlpZTAyancyam41ZXN4YnZnZmgifQ.Fi1JDeacZ5PqflsF1HRsPw</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string></string>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>location</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820045342B14D63900843D68 /* cenimaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820045332B14D63900843D68 /* cenimaApp.swift */; };
+		820045362B14D63900843D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820045352B14D63900843D68 /* ContentView.swift */; };
+		820045382B14D63900843D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820045372B14D63900843D68 /* Assets.xcassets */; };
+		8200453B2B14D63900843D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8200453A2B14D63900843D68 /* Preview Assets.xcassets */; };
+		820045452B14D63900843D68 /* cenimaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820045442B14D63900843D68 /* cenimaTests.swift */; };
+		8200454F2B14D63900843D68 /* cenimaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8200454E2B14D63900843D68 /* cenimaUITests.swift */; };
+		820045512B14D63900843D68 /* cenimaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820045502B14D63900843D68 /* cenimaUITestsLaunchTests.swift */; };
+		820045602B14DB0700843D68 /* MapboxCoreNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 8200455F2B14DB0700843D68 /* MapboxCoreNavigation */; };
+		820045622B14DB0700843D68 /* MapboxNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = 820045612B14DB0700843D68 /* MapboxNavigation */; };
+		820045642B14DB7400843D68 /* navi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820045632B14DB7400843D68 /* navi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820045412B14D63900843D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820045282B14D63800843D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200452F2B14D63800843D68;
+			remoteInfo = cenima;
+		};
+		8200454B2B14D63900843D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820045282B14D63800843D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8200452F2B14D63800843D68;
+			remoteInfo = cenima;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		820045302B14D63900843D68 /* cenima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cenima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820045332B14D63900843D68 /* cenimaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cenimaApp.swift; sourceTree = "<group>"; };
+		820045352B14D63900843D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		820045372B14D63900843D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8200453A2B14D63900843D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		820045402B14D63900843D68 /* cenimaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cenimaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820045442B14D63900843D68 /* cenimaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cenimaTests.swift; sourceTree = "<group>"; };
+		8200454A2B14D63900843D68 /* cenimaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cenimaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8200454E2B14D63900843D68 /* cenimaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cenimaUITests.swift; sourceTree = "<group>"; };
+		820045502B14D63900843D68 /* cenimaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cenimaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8200455D2B14D6BD00843D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		820045632B14DB7400843D68 /* navi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8200452D2B14D63800843D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820045602B14DB0700843D68 /* MapboxCoreNavigation in Frameworks */,
+				820045622B14DB0700843D68 /* MapboxNavigation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8200453D2B14D63900843D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820045472B14D63900843D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820045272B14D63800843D68 = {
+			isa = PBXGroup;
+			children = (
+				820045322B14D63900843D68 /* cenima */,
+				820045432B14D63900843D68 /* cenimaTests */,
+				8200454D2B14D63900843D68 /* cenimaUITests */,
+				820045312B14D63900843D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820045312B14D63900843D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820045302B14D63900843D68 /* cenima.app */,
+				820045402B14D63900843D68 /* cenimaTests.xctest */,
+				8200454A2B14D63900843D68 /* cenimaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820045322B14D63900843D68 /* cenima */ = {
+			isa = PBXGroup;
+			children = (
+				8200455D2B14D6BD00843D68 /* Info.plist */,
+				820045332B14D63900843D68 /* cenimaApp.swift */,
+				820045352B14D63900843D68 /* ContentView.swift */,
+				820045372B14D63900843D68 /* Assets.xcassets */,
+				820045392B14D63900843D68 /* Preview Content */,
+				820045632B14DB7400843D68 /* navi.swift */,
+			);
+			path = cenima;
+			sourceTree = "<group>";
+		};
+		820045392B14D63900843D68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8200453A2B14D63900843D68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		820045432B14D63900843D68 /* cenimaTests */ = {
+			isa = PBXGroup;
+			children = (
+				820045442B14D63900843D68 /* cenimaTests.swift */,
+			);
+			path = cenimaTests;
+			sourceTree = "<group>";
+		};
+		8200454D2B14D63900843D68 /* cenimaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8200454E2B14D63900843D68 /* cenimaUITests.swift */,
+				820045502B14D63900843D68 /* cenimaUITestsLaunchTests.swift */,
+			);
+			path = cenimaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8200452F2B14D63800843D68 /* cenima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820045542B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenima" */;
+			buildPhases = (
+				8200452C2B14D63800843D68 /* Sources */,
+				8200452D2B14D63800843D68 /* Frameworks */,
+				8200452E2B14D63800843D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cenima;
+			packageProductDependencies = (
+				8200455F2B14DB0700843D68 /* MapboxCoreNavigation */,
+				820045612B14DB0700843D68 /* MapboxNavigation */,
+			);
+			productName = cenima;
+			productReference = 820045302B14D63900843D68 /* cenima.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8200453F2B14D63900843D68 /* cenimaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820045572B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenimaTests" */;
+			buildPhases = (
+				8200453C2B14D63900843D68 /* Sources */,
+				8200453D2B14D63900843D68 /* Frameworks */,
+				8200453E2B14D63900843D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820045422B14D63900843D68 /* PBXTargetDependency */,
+			);
+			name = cenimaTests;
+			productName = cenimaTests;
+			productReference = 820045402B14D63900843D68 /* cenimaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		820045492B14D63900843D68 /* cenimaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8200455A2B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenimaUITests" */;
+			buildPhases = (
+				820045462B14D63900843D68 /* Sources */,
+				820045472B14D63900843D68 /* Frameworks */,
+				820045482B14D63900843D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8200454C2B14D63900843D68 /* PBXTargetDependency */,
+			);
+			name = cenimaUITests;
+			productName = cenimaUITests;
+			productReference = 8200454A2B14D63900843D68 /* cenimaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820045282B14D63800843D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8200452F2B14D63800843D68 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					8200453F2B14D63900843D68 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8200452F2B14D63800843D68;
+					};
+					820045492B14D63900843D68 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 8200452F2B14D63800843D68;
+					};
+				};
+			};
+			buildConfigurationList = 8200452B2B14D63800843D68 /* Build configuration list for PBXProject "cenima" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820045272B14D63800843D68;
+			packageReferences = (
+				8200455E2B14DB0700843D68 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */,
+			);
+			productRefGroup = 820045312B14D63900843D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8200452F2B14D63800843D68 /* cenima */,
+				8200453F2B14D63900843D68 /* cenimaTests */,
+				820045492B14D63900843D68 /* cenimaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8200452E2B14D63800843D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8200453B2B14D63900843D68 /* Preview Assets.xcassets in Resources */,
+				820045382B14D63900843D68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8200453E2B14D63900843D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820045482B14D63900843D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8200452C2B14D63800843D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820045362B14D63900843D68 /* ContentView.swift in Sources */,
+				820045342B14D63900843D68 /* cenimaApp.swift in Sources */,
+				820045642B14DB7400843D68 /* navi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8200453C2B14D63900843D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820045452B14D63900843D68 /* cenimaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820045462B14D63900843D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8200454F2B14D63900843D68 /* cenimaUITests.swift in Sources */,
+				820045512B14D63900843D68 /* cenimaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820045422B14D63900843D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8200452F2B14D63800843D68 /* cenima */;
+			targetProxy = 820045412B14D63900843D68 /* PBXContainerItemProxy */;
+		};
+		8200454C2B14D63900843D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8200452F2B14D63800843D68 /* cenima */;
+			targetProxy = 8200454B2B14D63900843D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		820045522B14D63900843D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		820045532B14D63900843D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820045552B14D63900843D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cenima/Preview Content\"";
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cenima/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "我们的应用使用蓝牙来发现并连接到附近的ARTrack设备。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "我们的应用需要使用蓝牙来与ARTrack设备通信。";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is required for xyz benefits for you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required for xyz benefits for you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820045562B14D63900843D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cenima/Preview Content\"";
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cenima/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "我们的应用使用蓝牙来发现并连接到附近的ARTrack设备。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "我们的应用需要使用蓝牙来与ARTrack设备通信。";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Your location is required for xyz benefits for you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required for xyz benefits for you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		820045582B14D63900843D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cenima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cenima";
+			};
+			name = Debug;
+		};
+		820045592B14D63900843D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenimaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cenima.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cenima";
+			};
+			name = Release;
+		};
+		8200455B2B14D63900843D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cenima;
+			};
+			name = Debug;
+		};
+		8200455C2B14D63900843D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMKGMK4CB6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wocenima.cenimaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cenima;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8200452B2B14D63800843D68 /* Build configuration list for PBXProject "cenima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820045522B14D63900843D68 /* Debug */,
+				820045532B14D63900843D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820045542B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820045552B14D63900843D68 /* Debug */,
+				820045562B14D63900843D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820045572B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenimaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820045582B14D63900843D68 /* Debug */,
+				820045592B14D63900843D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8200455A2B14D63900843D68 /* Build configuration list for PBXNativeTarget "cenimaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8200455B2B14D63900843D68 /* Debug */,
+				8200455C2B14D63900843D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8200455E2B14DB0700843D68 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-navigation-ios.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8200455F2B14DB0700843D68 /* MapboxCoreNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8200455E2B14DB0700843D68 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxCoreNavigation;
+		};
+		820045612B14DB0700843D68 /* MapboxNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8200455E2B14DB0700843D68 /* XCRemoteSwiftPackageReference "mapbox-navigation-ios" */;
+			productName = MapboxNavigation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 820045282B14D63800843D68 /* Project object */;
+}
