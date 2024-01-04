@@ -30,7 +30,7 @@ This device communicates with a smartphone via low-power Bluetooth. Navigation d
 
 ### 3.Software
 
-软件：ios软件工程
+软件：swift工程
 
 ![APP开发界面](https://github.com/AHANAyl0n/AR-Track/blob/main/5.Docs/APP%E5%BC%80%E5%8F%91%E7%95%8C%E9%9D%A2.jpg)
 
