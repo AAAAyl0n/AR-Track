@@ -36,7 +36,7 @@ This device communicates with a smartphone via low-power Bluetooth. Navigation d
 
 ### 4.Fusion-Model
 
-3D模型
+3D模型 未整理
 
 ### 5.Docs
 
